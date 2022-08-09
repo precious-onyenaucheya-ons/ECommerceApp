@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - EcommerceApp</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+    <header>
+        <div>
+            <div class="lan1">EN</div>
+            <div class="arr1"></div>
+            <div class="lan2">USD</div>
+            <div class="arr2"></div>
+            <div class="profile-img"></div>
+            <div class="profile">My Profile</div>
+            <div class="cart"></div>
+            <div class="cart-count"></div>
+            <div class="cart-num">2</div>
+            <div class="item">Items</div>
+            <div class="item-price">$0.00</div>
+            <div class="search"></div>
+        </div>
+        <div>
+            <div class="logo">
+                <div class="logo-inner"></div>
+            </div>
+            <div class="bus-name">E-Comm</div>
+            <div class="home">HOME</div>
+            <div class="bag">BAGS</div>
+            <div class="sn">SNEAKERS</div>
+            <div class="belt">BELTS</div>
+            <div class="contact">CONTACT</div>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <main>
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        <div class="cont">
+            <div class="cont1">
+                <div class="cont1-logo"></div>
+                <div class="cont1-logo2"></div>
+                <div class="cont1-title">E-Comm</div>
+               <div class="cont1-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.Since the 1500s, when an unknown printer.</div>
+            </div>
+            <div class="cont2">
+                <div class="cont2-title">Follow Us</div>
+                <div class="cont2-content">Since the 1500s, when an unknown printer took a galley of type and scrambled.</div>
+                <div class="cont2-pix1"></div>
+                <div class="cont2-pix2"></div>
+            </div>
+            <div  class="cont3">
+                <div class="cont3-title">Contact Us</div>
+                <div class="cont3-content">E-Comm , 4578 Marmora Road, Glasgow D04 89GR</div>
+            </div>
+            <div  class="cont4">
+                <div class="cont4-title">Information</div>
+                <div class="cont4-content">About Us Infomation Privacy Policy Terms & Conditions</div>
+            </div>
+            <div  class="cont5">
+                <div class="cont5-title">Service</div>
+                <div class="cont5-content">About Us Infomation Privacy Policy Terms & Conditions</div>
+            </div>
+            <div  class="cont6">
+                <div class="cont6-title">My Account</div>
+                <div class="cont6-content">About Us Infomation Privacy Policy Terms & Conditions</div>
+            </div>
+            <div  class="cont7">
+                <div class="cont7-title">Our Offers</div>
+                <div class="cont7-content">About Us Infomation Privacy Policy Terms & Conditions</div>
+            </div>
+        </div>
+        <div class="foot">
+            <div class="foot-note">© 2018 Ecommerce theme by www.bisenbaev.com</div>
+            <div class="foot-line"></div>
+            <div class="amex"></div>
+            <div class="amex2">AMERICAN EXPRESS</div>
+            <div class="master"></div>
+            <div class="master2"></div>
+            <div class="master3"></div>
+            <div class="paypal"></div>
+            <div class="paypal2">PayPal</div>
+            <div class="visa"></div>
+            <div class="visa2">VISA</div>
+        </div>
+    </footer>@*
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)*@
+</body>
+</html>
